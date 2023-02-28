@@ -1,0 +1,47 @@
+
+Lore:
+
+As mankind’s exploration of the space reaches new heights in the distant future, 
+fuelled by the intangible desire to explore and challenge the boundaries of what is possible.  
+ 
+A planetary exploration mission turns into a disaster as the spacecraft crashes during the landing procedure. 
+This soon turns into a fight for survival, as the sole surviving human discovers... 
+he is not the only living creature on this planet...
+
+Instructions:
+
+Crash Landed is a 2-dimensional platform/swarm defense game, The player is an astronaut who is able to move left, right and jump with
+A,D and W respectively and must fight an endless swarm of hostile alien spaceships.
+ 
+The player possesses the ability shoot at enemies with a gun, by default a shot can be fired every 0.4 seconds.
+The Player can utilise the gun by moving the mouse to aim and pressing the left mouse button to fire the laser. 
+If the laser hits the Aliens(spaceship) the Alien dies and player’s score count goes up.
+
+Randomly, some spaceships (5%) will drop a shield on their death location. This can be picked up and will absorb one
+hit from an enemy and also kill whatever hit the player. Player's can hold 2 shields at once, picking up additional after this increases the player's
+score and they despawn from the map after 10 seconds if not collected.
+
+The alien's spawn in waves and are programmed to follow the player around and swarm them.
+If the alien collides with the (shieldless) player the player dies and the game will finish, displaying the player's final wave and score.
+After defeating all the enemies, a new wave will spawn with increased difficulty (more enemies) this repeats until the player eventually is overrun.
+The game also has an adjustable difficulty which changes the maximum speed of the aliens, the fire rate of the player weapon, number of
+additional enemies per wave and the amount of score recieved for killing enemies/passing a wave. When enemies spawn in, they are assigned a random 
+speed between 1 and either 1,2 or 3 depending on the selected difficulty. The enemies are also designed to spawn above the map limit and descend
+onto the player.
+
+The game features a menu system which allows the player to start a new game, read the controls, change the default difficulty and exit the game.
+
+The player must navigate ledges to traverse the map, while aliens are able to pass through them.
+
+The game features a graphical component with animation, as well as sound effects and music.
+
+The objective is to get the highest score you can and survive as long as possible!
+
+
+Group References:
+https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite
+https://www.youtube.com/watch?v=uWvb3QzA48c&ab_channel=KidsCanCode
+https://www.techwithtim.net/tutorials/game-development-with-python/pygame-tutorial/jumping/ 
+https://coderslegacy.com/python/pygame-rpg-movement-animations/ -- count feature for tracking iterations over list of sprite images for animation
+https://stackoverflow.com/questions/63495823/how-to-shoot-a-bullet-towards-mouse-cursor-in-pygame -- for maths formulae to implement a point and click
+shooting system
